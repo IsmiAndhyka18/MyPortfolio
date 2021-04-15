@@ -1,7 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
-body {
+html body {
   margin: auto;
   background: #f6f1eb;
 }
@@ -12,6 +12,7 @@ body {
   height: 700px;
   margin: auto;
 }
+
 
 .row-wrapper {
   display: flex;
@@ -51,22 +52,20 @@ body {
 /*aside  text */
 .text--big {
     font-family: 'Poppins', sans-serif;
-    font-size: 7.5em;
+    font-size: 8em;
     font-weight: 700;
     line-height: 110px;
-    margin:250px;
+    margin:280px;
     margin-right: 80px;
-   
-
-    
+  
 }
 
 
 .text__background {
   font-family: 'Abril Fatface', cursive;
     position: absolute;
-    left: 2px;
-    bottom: -50px;
+    left: 4px;
+    bottom: 140px;
     color: rgba(0, 0, 0, 0.05);
     font-size: 20rem;
     font-weight: 700;
@@ -79,7 +78,7 @@ body {
     text-transform: uppercase;
     color:#a48474;
     text-align: right;
-    margin:50px;
+    margin:150px;
 }
 
 
@@ -101,6 +100,7 @@ h1 {
   margin-bottom: 0%;
 }
 
+
 h2 {
   color: white;
   font-family: Arial;
@@ -118,7 +118,7 @@ h2 {
 }
 
 .transition1 {
-  background:#e9dcd2;
+  background:#e2bb9d;;
   height: 500px;
   width: 200%;
   transform: rotateZ(-5deg) translateX(-70px);
@@ -138,17 +138,18 @@ h2 {
   margin-top:30px;
   text-transform: uppercase;
     color: transparent;
-    -webkit-text-stroke: 2px #a48474;
+    -webkit-text-stroke: 2px #c09d8b;
     font-family: 'Roboto', sans-serif;
     font-size: 3rem;
     margin: 50px auto;
+    font-family: 'Poppins', sans-serif;
 }
 
 p {
   font-family: Roboto Condensed;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(97, 82, 82, 0.466);
   font-weight: 100;
-  font-size: 1.2em;
+  font-size: 1.5rem;
 }
 
 .profile-photo {
@@ -166,6 +167,8 @@ p {
   margin-top: -10px;
   
 }
+
+
 
 .project {
   justify-content: space-around;
@@ -267,7 +270,7 @@ form {
 input {
   font-family: Roboto Condensed;
   font-size: 1.2em;
-  width: 36.4%;
+  width: 30%;
   padding: 12px 20px;
   box-sizing: border-box;
   outline: none;
@@ -278,8 +281,8 @@ input {
 textarea {
   font-family: Roboto Condensed;
   font-size: 1.2em;
-  width: 70%;
-  height: 200px;
+  width: 60%;
+  height: 300px;
   resize: none;
   padding: 12px 20px;
   margin-top: 5px;
@@ -301,7 +304,7 @@ input[type=submit] {
   text-decoration: none;
   margin: 4px 2px;
   cursor: pointer;
-  width: 73.5%;
+  width: 60%;
   font-size: 1.2em;
 }
 
@@ -318,16 +321,116 @@ input[type=submit] {
   padding-top: 70px;
 }
 
-i{
-  font-size: 4rem;
-  color:#be9c82;
-  letter-spacing: 10px;
+/* social media*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-i:hover{
-  color: #edada1;
+*:focus,
+*:active {
+  outline: none !important;
+  -webkit-tap-highlight-color: transparent;
 }
 
+
+.wrapper {
+  display: inline-flex;
+}
+
+.wrapper .icon {
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 50%;
+  padding: 15px;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.wrapper .icon:hover .tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.wrapper .icon:hover span,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper .facebook:hover,
+.wrapper .facebook:hover .tooltip,
+.wrapper .facebook:hover .tooltip::before {
+  background-color: #3b5999;
+  color: #ffffff;
+}
+
+.wrapper .twitter:hover,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip::before {
+  background-color: #46c1f6;
+  color: #ffffff;
+}
+
+.wrapper .instagram:hover,
+.wrapper .instagram:hover .tooltip,
+.wrapper .instagram:hover .tooltip::before {
+  background-color: #e1306c;
+  color: #ffffff;
+}
+
+.wrapper .github:hover,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip::before {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.wrapper .youtube:hover,
+.wrapper .youtube:hover .tooltip,
+.wrapper .youtube:hover .tooltip::before {
+  background-color: #de463b;
+  color: #ffffff;
+}
 
 
 
@@ -336,6 +439,7 @@ i:hover{
   bottom: 0;
   right: 0;
   margin: 30px;
+  
 }
 
 /*responsive*/
