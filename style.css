@@ -6,6 +6,12 @@ html body {
   background: #f6f1eb;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .home {
   background:#e2bb9d;
   width: 100vw;
@@ -84,7 +90,7 @@ html body {
 
 h1 {
   color: white;
-  font-family: Montserrat;
+  font-family: 'Poppins', sans-serif;
   font-size: 6.5em;
   font-weight: bold;
   letter-spacing: 5px;
@@ -140,13 +146,13 @@ h2 {
     color: transparent;
     -webkit-text-stroke: 2px #c09d8b;
     font-family: 'Roboto', sans-serif;
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 50px auto;
     font-family: 'Poppins', sans-serif;
 }
 
 p {
-  font-family: Roboto Condensed;
+  font-family: 'Poppins', sans-serif;
   color: rgba(97, 82, 82, 0.466);
   font-weight: 100;
   font-size: 1.5rem;
@@ -190,9 +196,9 @@ p {
 }
 
 .project-title {
-  font-family: Montserrat;
-  color:#a48474;
-  font-size: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  color:#6e6e6ea1;
+  font-size: 2em;
   font-weight: bold;
   padding: 10px 10px 20px 0px;
 }
@@ -324,11 +330,7 @@ input[type=submit] {
 /* social media*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 *:focus,
 *:active {
@@ -439,6 +441,11 @@ input[type=submit] {
   bottom: 0;
   right: 0;
   margin: 30px;
+  
+}
+
+.extra-text{
+  text-align:center;
   
 }
 
