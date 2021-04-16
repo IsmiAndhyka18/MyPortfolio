@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Fjalla+One&display=swap');
 
+
 html body {
   margin: auto;
   background: #f6f1eb;
@@ -14,7 +15,10 @@ html body {
 }
 
 .home {
-  background:#e2bb9d;
+  background-color:#e2bb9d;
+  background-image: url(./assets/Design2.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
   width: 100vw;
   height: 700px;
   margin: auto;
@@ -281,7 +285,7 @@ form {
 input {
   font-family: Roboto Condensed;
   font-size: 1.2em;
-  width: 30%;
+  width: 29.8%;
   padding: 12px 20px;
   box-sizing: border-box;
   outline: none;
@@ -333,8 +337,6 @@ input[type=submit] {
 }
 
 /* social media*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
 
 
 *:focus,
@@ -450,15 +452,11 @@ input[type=submit] {
 }
 
 
-#arrow-up:hover{
-  color:brown;
-}
 
 .extra-text{
   text-align:center;
   
 }
-
 
 
 /*responsive*/
