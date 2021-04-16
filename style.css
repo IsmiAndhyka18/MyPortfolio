@@ -68,7 +68,7 @@ html body {
   font-size: 8em;
   font-weight: 700;
   line-height: 110px;
-  margin:280px;
+  margin:250px;
   margin-right: 80px;
   
 }
@@ -82,7 +82,7 @@ html body {
   color: rgba(0, 0, 0, 0.05);
   font-size: 20rem;
   font-weight: 700;
-  margin-left: 140px;
+  margin-left: 100px;
 }
 
 .text--sub {
