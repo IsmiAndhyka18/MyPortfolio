@@ -184,6 +184,7 @@ p {
   position: absolute;
   bottom: 200px;
   right: 250px;
+ 
 }
 .project-title {
   font-family: 'Poppins', sans-serif;
@@ -207,10 +208,17 @@ p {
 
 
 .contact {
+  margin-top: -100px;
   margin: 50px auto;
-  background:#f6f1eb;
+  background-color:#f6f1eb;
+  background-image: url(./assets/bg1.png);
+  background-repeat: no-repeat;
+  background-position:top;
   height: 300px;
+  width: 100%;
+
 }
+
 
 .centering {
   display: flex;
@@ -224,6 +232,7 @@ p {
   margin: auto;
   padding-top: 50px;
   margin-top: -20px;
+  color: #e2bb9d;
 }
 
 /* social media*/
