@@ -83,6 +83,10 @@ html body {
   
 }
 
+.contact-text{
+  color: #a68077;
+}
+
 
 .text__background {
   font-family: 'Abril Fatface', cursive;
@@ -231,8 +235,8 @@ p {
   text-align: center;
   margin: auto;
   padding-top: 50px;
-  margin-top: -20px;
-  color: #e2bb9d;
+  color: #cf9d76;
+  margin-top: 130px;
 }
 
 /* social media*/
