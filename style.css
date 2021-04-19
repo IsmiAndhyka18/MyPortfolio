@@ -144,7 +144,26 @@ h2 {
   overflow: hidden;
   width: 100vw;
   height:900px;
+  display:flex;
+
+
 }
+
+
+.about-content {
+  flex-direction: column;
+  text-align: center;
+  margin-top: 300px;
+  margin-right: 100px;
+  justify-content: space-around;
+
+}
+
+
+.line-about{
+  border: 2px dashed red;
+}
+
 
 .transition1 {
   background-color:#e2bb9d;;
@@ -156,11 +175,6 @@ h2 {
   bottom: 100%;
 }
 
-.about-content {
-  flex-direction: column;
-  padding: 20% 40% 5% 10%;
-  justify-content: space-around;
-}
 
 .headings {
   margin: 0px;
@@ -178,23 +192,26 @@ p {
   font-family: 'Poppins', sans-serif;
   color: rgba(97, 82, 82, 0.466);
   font-weight: 100;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 
 }
 
 .profile-photo {
-  max-width: 20%;
-  position: absolute;
-  bottom: 200px;
-  right: 250px;
- 
+  width: 100%;
+  height: 500px;
+  margin-top:300px;
+  margin-left: 100px;
 }
+
+
 .project-title {
   font-family: 'Poppins', sans-serif;
   color:#be9c82;
   font-size: 2em;
   font-weight: bold;
   padding: 10px 10px 20px 0px;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
 }
 .portfolio {
   padding-top: 100px;
@@ -234,10 +251,11 @@ p {
   text-align: center;
   margin: auto;
   padding-top: 50px;
-  color:#ebc8c2;;
+  color:#ebc8c2;
   letter-spacing: 0.2rem;
   margin-top: -80px;
   margin-bottom: 20px;
+  text-transform: uppercase;
 
 }
 
@@ -426,6 +444,7 @@ a:hover{
     padding-top: 60px;
     padding-bottom: 30px;
     height: auto;
+    
   }
   
    .profile-photo {
@@ -694,6 +713,8 @@ a:hover{
       text-shadow: 0 0 5px #ffa500, 0 0 15px #e8a8a0 , 0 0 20px #cea791, 0 0 40px #ffa500, 0 0 60px #c48282, 0 0 10px #dbae76, 0 0 98px #e5b1b1;
       animation: blink 12s infinite;
        -webkit-animation: blink 12s infinite;
+       font-family: 'Poppins', sans-serif;
+       letter-spacing: 0.2rem;
 
     }
 
