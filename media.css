@@ -1,0 +1,208 @@
+/*responsive*/
+@media screen and (max-width: 1221px) {
+    .headings {
+      font-size: 3em;
+    }
+    
+    .about {
+      height: 600px;
+    }
+  }
+  @media screen and (max-width: 785px) {
+  
+    .navbar-item {
+      font-weight: bold;
+      min-height: 48px;
+      display: flex;
+      align-items: center;
+      box-sizing: border-box;
+    }
+
+    .tex__background{
+        
+    }
+    
+    h1 {
+      font-size: 3em;
+    }
+    
+    .hello {
+      margin-top: 50px;
+      margin-right: 50px;
+      margin-left: 50px;
+    }
+    
+    h2 {
+      font-size: 0.7em;
+      font-weight: bold;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 10px;
+    }
+    
+    .home {
+      height: 350px;
+    }
+    
+    #socialmedia-icon {
+      display: none;
+    }
+  
+    .about {
+      display: flex;
+      flex-direction: column;
+      padding-top: 60px;
+      padding-bottom: 30px;
+      height: auto;
+      
+    }
+    
+     .profile-photo {
+      max-width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      order: 1;
+      align-self: center;
+    }
+  
+    .profile-photo:hover .glow{
+    transform: rotate(45deg) translate(450%, 0);
+    transition: all 1s cubic-bezier(0.645, 0.045, 0.355, 1);
+  
+    }
+    
+    .about-content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 0;
+      margin-left: 50px;
+      margin-right: 50px;
+      order: 2;
+      }
+    
+   
+  
+    
+    
+    .img-portfolio {
+    max-width: 90%;
+    order: 1;
+    }
+  
+    .contact {
+      height: 550px;
+    }
+    
+    .headings {
+      margin-top: 30px;
+    }
+    
+    input {
+    font-size: 0.9em;
+    width: 36.5%;
+    margin-top: 10px;
+  }
+  
+    textarea {
+    font-size: 0.9em;
+    width: 63.5%;
+    height: 150px;
+  }
+  
+    input[type=submit] {
+    width: 61%;
+    font-size: 1em;
+  } 
+    .coded {
+    padding-top: 40px;
+  }
+  }
+  
+  
+  @media (min-width: 767px) {
+   
+   #portfolio .portfolio-item {
+      margin: 0 0 30px; } 
+  
+  }
+  
+  .portfolio-modal {
+    padding-right: 0px !important; }
+    .portfolio-modal .modal-dialog {
+      margin: 1rem;
+      max-width: 100vw; 
+    }
+  
+    .portfolio-modal .modal-content {
+      padding: 100px 0;
+      text-align: center; 
+    
+    }
+      .portfolio-modal .modal-content h2 {
+        font-size: 3em;
+        margin-bottom: 15px; 
+      
+      }
+      .portfolio-modal .modal-content p {
+        margin-bottom: 30px; 
+      
+      }
+      .portfolio-modal .modal-content p.item-intro {
+        font-size: 30px;
+        font-style: italic;
+        margin: 20px 0 30px;
+        font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        color:#e8a8a0 !important ;
+       }
+      .portfolio-modal .modal-content ul.list-inline {
+        margin-top: 0;
+        margin-bottom: 30px;
+        float:right;
+      
+      }
+      .portfolio-modal .modal-content img {
+        margin-bottom: 30px; }
+      .portfolio-modal .modal-content button {
+        cursor: pointer;
+      
+      }
+    .portfolio-modal .close-modal {
+      position: absolute;
+      top: 25px;
+      right: 25px;
+      width: 75px;
+      height: 75px;
+      cursor: pointer;
+      background-color: transparent; 
+    }
+    .portfolio-modal .close-modal:hover {
+    opacity: 0.3; 
+    }
+  
+   .portfolio-modal .close-modal .lr {
+        /* Safari and Chrome */
+        z-index: 1051;
+        width: 1px;
+        height: 75px;
+        margin-left: 35px;
+        /* IE 9 */
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        background-color: #be9c82;
+      
+      }
+        .portfolio-modal .close-modal .lr .rl {
+          /* Safari and Chrome */
+          z-index: 1052;
+          width: 1px;
+          height: 75px;
+          /* IE 9 */
+          -webkit-transform: rotate(90deg);
+          -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+          background-color:#be9c82;
+        
+        }
+  
